@@ -1,0 +1,265 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    font-size: 14px;
+}
+.container{
+    width: 100%;
+    height: 1030px;
+    background-color: hsl(30, 38%, 92%);
+    position: relative;
+
+}
+.sub-container{
+    width: 60%;
+    height: 630px;
+    margin: 200px 20% 200px 20%;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    
+}
+.image{
+    width: 50%;
+    background-image: url(images/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.preview{
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;   
+}
+h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color:  hsl(228, 12%, 48%);
+
+}
+h1{
+    font-size: 58px;
+    margin-bottom: 20px;
+    color: hsl(212, 21%, 14%);
+}
+p{
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 25px;
+    color: hsl(228, 12%, 48%);
+}
+.currency{
+    height: 90px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.currency h1{
+    font-size: 42px;
+    color:hsl(158, 36%, 37%);
+}
+.currency h5{
+    color: hsl(228, 12%, 48%);
+    font-size: 24px;
+    text-decoration: line-through;
+
+}
+.cart{
+    width: 80%;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 8px 15% 5px 15%;
+    margin-left: 10%;
+    display: inline-block;
+    background-color: hsl(158, 36%, 37%);
+}
+.cart img{
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+}
+.cart h1{
+    display: inline-block;
+    margin-inline-start: 7%;
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+}
+.cart:hover{
+    cursor: pointer;
+    background-color: hsl(158, 36%,27%);
+    transition: .3s;
+}
+@media (min-width: 320px) and (max-width: 1021px){
+    .container{
+        width: 100%;
+        height: 800px;
+        background-color: hsl(30, 38%, 92%);
+    }
+    .sub-container{
+        height: 700px;
+        width: 90%;
+        margin: 20px 5%;
+        border: 2px solid transparent;
+        border-radius: 60px;
+        display: block;
+       /* z-index: 1;*/
+    }
+    .image{
+        width: 100%;
+        height: 300px;
+        background-image: url(images/image-product-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .preview{
+        width: 100%;
+        background-color: hsl(0, 0%, 100%);
+        padding: 20px 10px;   
+    }
+    h3{
+       font-size: 18px;
+       margin-bottom: 10px;
+       letter-spacing: 2px;
+       text-transform: uppercase;
+       color:  hsl(228, 12%, 48%);
+        
+    }
+    h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: hsl(212, 21%, 14%);
+    }
+    p{
+        font-size: 19px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        color: hsl(228, 12%, 48%);
+    }
+    .currency{
+        height: 90px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: start;
+    }
+    .currency h1{
+        font-size: 42px;
+        color:hsl(158, 36%, 37%);
+        vertical-align: top;
+        margin-right: 9%;
+    }
+    .currency h5{
+        color: hsl(228, 12%, 48%);
+        font-size: 24px;
+        text-decoration: line-through;
+        vertical-align: bottom;
+    
+    }
+    .cart{
+        width: 90%;
+        height: 50px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        padding: 9px 10% 5px 20%;
+        margin-left: 5%;
+        display: inline-block;
+        background-color: hsl(158, 36%, 37%);
+    } 
+}
+@media (min-width: 1021px) and (max-width: 1439px){
+    .container{
+        width: 100%;
+        height: 1030px;
+        background-color: hsl(30, 38%, 92%);
+        position: relative;
+    
+    }
+    .sub-container{
+        width: 60%;
+        height: 400px;
+        margin: 200px 20% 200px 20%;
+        border: 2px solid transparent;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    } 
+    .image{
+        width: 50%;
+        background-image: url(images/image-product-desktop.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: fill;
+    }
+    .preview{
+        width: 50%;
+        background-color: hsl(0, 0%, 100%);
+        padding: 30px;   
+    }
+    h3{
+        font-size: 12px;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color:  hsl(228, 12%, 48%);
+    
+    }
+    h1{
+        font-size: 27px;
+        margin-bottom: 20px;
+        color: hsl(212, 21%, 14%);
+    }
+    p{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 15px;
+        color: hsl(228, 12%, 48%);
+    }
+    .currency{
+        height: 70px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: start;
+    }
+    .currency h1{
+        font-size: 27px;
+        color:hsl(158, 36%, 37%);
+        vertical-align: top;
+        margin-right: 9%;
+    }
+    .currency h5{
+        color: hsl(228, 12%, 48%);
+        font-size: 15px;
+        text-decoration: line-through;
+        vertical-align: bottom;
+    
+    }
+    .cart{
+        width: 90%;
+        height: 50px;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        padding: 9px 10% 5px 20%;
+        margin-left: 5%;
+        display: inline-block;
+       /* background-color: hsl(158, 36%, 37%);*/
+    } 
+    .cart h1{
+        font-size: 18px;
+    }
+
+}

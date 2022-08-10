@@ -1,0 +1,82 @@
+# Frontend Mentor - Product preview card component solution
+
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Was able to design a website that:
+
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
+### Links
+
+Solution URL: (https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) 
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [Styled Components](https://styled-components.com/) - For styles
+
+### What I learned
+
+Learnt how to make a website responsive using css with the use of media query.
+learnt the use of flexbox
+Learnt the use of positioning i.e absolute and relative position.
+
+
+```css
+.proud-of-this-css {
+  @media (min-width: 1021px) and (max-width: 1439px){
+    .container{
+      width: 100%;
+      height: 1030px;
+      background-color: hsl(30, 38%, 92%);
+      position: relative;
+    
+    }
+```
+this allowed the page to be responsive at all browser screen width starting from 1021px to 1439px making the page arranged and neat.
+
+### Continued development
+
+i would like to focus on the use of gridbox, learning bootstrap to fasten the web design, and the use of peudo positioning and animation in css
+
+## Author
+
+- website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Facebook - [@Cynthia Obinwa](https://www.facebook.com/Cynthia Obinwa)
